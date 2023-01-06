@@ -1,0 +1,53 @@
+p {
+  color: blue;
+  size: 12pt;
+  font-family: "Arial";
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+body table tr {
+  color: red red;
+}
+
+body table caption {
+  color: red;
+}
+
+h1, h2, h3 {
+  color: purple;
+  font-family: "Monotype Corsiva";
+}
+
+li[type="1"] {
+  color: purple;
+  font-family: "Monotype Corsiva";
+  font-size: 18pt;
+}
+
+.subparagraphsOfParagraph_1 {
+  color: red;
+  font-family: "Times New Roman";
+  font-size: 18pt;
+}
+
+.subparagraphsOfParagraph_2 {
+  color: yellow;
+  font-family: "Times New Roman";
+  font-size: 20pt;
+}
+
+.subparagraphsOfParagraph_3 {
+  color: green;
+  font-family: "Times New Roman";
+  font-size: 22pt;
+}/*# sourceMappingURL=style.css.map */

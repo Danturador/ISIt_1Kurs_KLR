@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style_for_ex2.xsl"?>
+<catalog>
+    <student>
+        <name>Адамец Виктория</name>
+        <mark>2</mark>
+    </student>
+    <student>
+        <name>Альферович Кирилл</name>
+        <mark>9</mark>
+    </student>
+    <student>
+        <name>Буйко Павел</name>
+        <mark>8.5</mark>
+    </student>
+    <student>
+        <name>Велючить Дмитрий</name>
+        <mark>4</mark>
+    </student>
+    <student>
+        <name>Горощеня Юлианна</name>
+        <mark>8</mark>
+    </student>
+    <student>
+        <name>Гузич Диана</name>
+        <mark>8</mark>
+    </student>
+    <student>
+        <name>Качалюк Сергей</name>
+        <mark>8</mark>
+    </student>
+    <student>
+        <name>Крупко Даниил</name>
+        <mark>5.5</mark>
+    </student>
+    <student>
+        <name>Ломако Данил</name>
+        <mark>8</mark>
+    </student>
+    <student>
+        <name>Лученок Данила</name>
+        <mark>8.5</mark>
+    </student>
+    <student>
+        <name>Малойчик Анастасия</name>
+        <mark>7.5</mark>
+    </student>
+    <student>
+        <name>Миронов Августин</name>
+        <mark>8.5</mark>
+    </student>
+    <student>
+        <name>Сацюк Владимир</name>
+        <mark>3</mark>
+    </student>
+    <student>
+        <name>Янкевич Ярослав</name>
+        <mark>7.5</mark>
+    </student>
+</catalog>

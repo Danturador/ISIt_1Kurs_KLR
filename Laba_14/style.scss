@@ -1,0 +1,66 @@
+$standColor: red;
+$pColor: blue;
+$sizeParParOPar: 18pt; 
+
+@mixin standBorder {
+    border: 1px solid black;
+}
+@mixin colorFont{
+    color: purple;
+    font-family: "Monotype Corsiva";
+}
+
+p {
+    color: $pColor;
+    size: 12pt;
+    font-family: "Arial";
+}
+
+table {
+    @include standBorder;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    @include standBorder;
+    padding: 4px;
+}
+
+body {
+    table {
+        tr {
+            color: $standColor$standColor;
+        }
+    }
+}
+
+body {
+    table {
+        caption {
+            color: $standColor;
+        }
+    }
+}
+h1, h2, h3 {
+    @include colorFont;
+}
+li[type="1"]{
+    @include colorFont;
+    font-size: $sizeParParOPar;
+}
+.subparagraphsOfParagraph_1 {
+    color: red;
+    font-family: "Times New Roman";
+    font-size: $sizeParParOPar;
+}
+.subparagraphsOfParagraph_2 {
+    color: yellow;
+    font-family: "Times New Roman";
+    font-size: $sizeParParOPar + 2;
+}
+.subparagraphsOfParagraph_3 {
+    color: green;
+    font-family: "Times New Roman";
+    font-size: $sizeParParOPar + 4;
+}
