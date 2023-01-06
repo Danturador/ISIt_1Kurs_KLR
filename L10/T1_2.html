@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="T1_2.css">
+    <link href="link.css" rel="stylesheet" media="(width: 1280px)">
+    <style>
+        @import url({menu1-2.css}) (width: 768px);
+        @media screen and (width: 480px)
+        {
+            figcaption{
+                color: red;
+            }
+        }
+        @media screen and (max-width: 1280px)
+        {
+            .gallery{
+                width: 100%;
+            }
+            figure{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="menu">
+    <label for="menu">&#8801;</label>
+        <nav class="nav">
+            <ul class="adrs">
+                <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj5046NwI_8AhXKtYsKHUAjADkQtwJ6BAgBEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dd0qCOPZD__w&usg=AOvVaw0hJQsuQx352shDs79XEq2f">Видео о спообностях1</a></li>
+                <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj5046NwI_8AhXKtYsKHUAjADkQtwJ6BAgHEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dsza1Geu0UJg&usg=AOvVaw3pgIMLboJNZzmgidCbqnOj">Видео о спообностях2</a></li>
+                <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj5046NwI_8AhXKtYsKHUAjADkQtwJ6BAgFEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DM_DWzzKBaRU&usg=AOvVaw0jdcXR34MrlUaQgbnN9Xcp">Видео о спообностях3</a></li>
+                <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj5046NwI_8AhXKtYsKHUAjADkQtwJ6BAgMEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkO5ISz4UhiI&usg=AOvVaw2tXGQspPCQLxZUXDj9KNnU">Видео о спообностях4</a></li>
+                <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwj5046NwI_8AhXKtYsKHUAjADkQtwJ6BAgGEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1OLDQqZs67g&usg=AOvVaw3Qsn_VVBOodyR4TvzrM6jA">Видео о спообностях5</a></li>
+            </ul>
+        </nav>
+        <div class="aboutFlex">
+        <header>
+            <h1>Flexbox-верстка</h1>
+        </header>
+            <section class="block1">
+                <video src="Video/God of War_ 7 Skills to Get First.mp4" controls="controls"></video>
+                <video src="Video/God of War_ 7 Skills to Get First.mp4" controls="controls"></video>
+                <video src="Video/God of War_ 7 Skills to Get First.mp4" controls="controls"></video>
+            </section>
+            <section class="block2">
+                <p>
+                    Flexbox-верстка — разметка макетов веб-страниц, которая позволяет автоматически настраивать ширину элементов, находящихся внутри flex-контейнера. Для применения данного способа разметки следует учитывать разделение применяемых свойств на свойства flex-контейнера и свойства flex-элемента.
+                </p>
+                <p>
+                    С помощью display: flex; осуществляется преобразование HTML-элемента в flex-контейнер, а элементы находящийся внутри него в flex-элементы. По умолчанию flex-элементы помещаются друг за другом в одной строке. Свойство flex-flow позволяет выбрать направление отображения элементов в контейнере, а также указать их перенос на следующую строку. Первое значение определяет направление, а второе перенос на следующую строку.
+                </p>
+                <p>
+                    Свойство flex-flow является сокращенной записью и содержит значения свойств  flex-direction и  flex-wrap. Flex-элементы могут размещаться в строке (значение row) или в колонке (значение column). Перенос элементов осуществляется с помощью значения wrap.
+                </p>
+                <p>
+                    Свойство justify-content определяет способ выключки flex-элементов в строке. Для выравнивания левому краю используется значения flex-start, а по правому краю — flex-end. Для равномерного распределения элементов создавая пространство между ними необходимо значение space-between, а space-around добавляет поля по левому и правому краям крайних элементов.
+                </p>
+                <p>
+                    Свойство align-items определяет, как flex-элементы различной высоты будут выровнены по высоте строки в flex-контейнере. Для выравнивания верхнему краю используется значения flex-start, а по нижнему краю — flex-end. Значение stretch позволяет растянуть каждый элемент по высоте контейнера, делая их высоты одинаковыми.
+                </p>
+                <p>
+                    Свойство align-content определяет как будут размещены flex-элементы, занимающие несколько строк.
+                </p>
+            </section>
+            <section class="block3">
+                    <h2> 01 - God of War </h2>
+                <audio controls="controls">
+                    <source src="Audio/01 - God of War.mp3" type="audio/mp3">
+                </audio>
+                    <h2> 02 - Memories of Mother </h2>
+                <audio controls="controls">
+                    <source src="Audio/02 - Memories of Mother.mp3" type="audio/mp3">
+                </audio>
+                    <h2> 03 - Witch of the Woods </h2>
+                <audio controls="controls">
+                    <source src="Audio/03 - Witch of the Woods.mp3" type="audio/mp3">
+                </audio>
+            </section>
+        </div>
+        <h1> Главные герои God Of War 5 </h1>
+        <div class="gallery">
+            <figure>
+                <img src="images/Kratos.PNG">
+                <figcaption> Кратос </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Atreus.PNG">
+                <figcaption> Атрей </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Mimir.PNG">
+                <figcaption> Мимир </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Laufei.PNG">
+                <figcaption> Фей </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Odin.PNG">
+                <figcaption> Один </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Tyr.PNG">
+                <figcaption> Тюр </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Sindry.PNG">
+                <figcaption> Синдри </figcaption>
+            </figure>
+            <figure>
+                <img src="images/Brok.PNG">
+                <figcaption> Брок </figcaption>
+            </figure>
+        </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+$textToCenter: center;
+$button_color: blue;
+$button_text: red;
+$a_size: 20px;
+$h_size: 20px;
+$p_size: 18px;
+$inputTextColor: black;
+
+@mixin bg_color {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+%page_logo {
+    padding: 5px 0 0 5px;
+    height: 80px;
+    width: 120px;
+}
+@mixin border {
+    border: 1px solid blue;
+}
+@function size_for_p() {
+    @if($h_size > 25px){
+        @return $h_size / 3;
+    }
+    @else {
+        @return $h_size / 1.5;
+    }
+}
+@function color_for($isdB: 0) {
+    @if($isdB == 'dB') { @return darkblue; }
+        @else { @return blue; }
+}
+%labelPosition {
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+    text-align: right;
+    width: 60px;
+    font-size: $p_size;
+    color: color_for($isdB: dB);
+}

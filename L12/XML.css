@@ -1,0 +1,23 @@
+GOW{
+    text-align: center;
+    display: table;
+    border-collapse: collapse;
+    margin: 10px auto 0 auto;
+}
+character, head{
+    display: table-row;
+}
+hWeapon, hName, hStatus, hBornPlace{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 63, 197);
+}
+weapon, name, status, bornPlace{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(152, 188, 243, 0.7);
+}

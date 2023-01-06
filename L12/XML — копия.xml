@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="XML.css"?>
+
+<!DOCTYPE GOW [
+<!ELEMENT GOW (head, hName, hWeapon, hStatus, hBornPlace, character, name, weapon, status, bornPlace)>
+<!ELEMENT hName (#PCDATA)>
+<!ELEMENT hWeapon (#PCDATA)>
+<!ELEMENT hStatus (#PCDATA)>
+<!ELEMENT hBornPlace (#PCDATA)>
+<!ELEMENT character (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT weapon (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT bornPlace (#PCDATA)>
+<!ENTITY kratosWeapon "Клинки хаоса, Левиофан">
+]>
+
+<GOW>
+<head>
+    <hName>Имя</hName>
+    <hWeapon>Оружие</hWeapon>
+    <hStatus>Статус</hStatus>
+    <hBornPlace>Место рождения</hBornPlace>
+</head>
+<character>
+    <name>Кратос</name>
+    <weapon>&kratosWeapon;</weapon>
+    <status>Бог войны</status>
+    <bornPlace>Греция</bornPlace>
+</character>
+<character>
+    <name>Атрей</name>
+    <weapon>Лук</weapon>
+    <status>Последний великан</status>
+    <bornPlace>Скандинавия</bornPlace>
+</character>
+<character>
+    <name>Тор</name>
+    <weapon>Мьёльнер</weapon>
+    <status>Бог грома и молний</status>
+    <bornPlace>Асгард</bornPlace>
+</character>
+<character>
+    <name>Тюр</name>
+    <weapon>-</weapon>
+    <status>Бывший бог войны</status>
+    <bornPlace>Йотунхейм</bornPlace>
+</character>
+</GOW>

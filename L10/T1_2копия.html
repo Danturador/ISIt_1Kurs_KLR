@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="T1_2.css">
+</head>
+<body>
+    <label for="menu"></label>
+        <nav class="nav">
+            <ul class="adrs">
+                <li><a href="https://youtu.be/EO8hH_2OwCU">Видео Flex</a></li>
+                <li><a href="https://html5book.ru/css3-flexbox/">HTML5BOOK</a></li>
+                <li><a href="https://habr.com/ru/post/467049/">Habr</a></li>
+                <li><a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Mozila</a></li>
+                <li><a href="https://basicweb.ru/css/css_flexbox_p1.php">Basicweb</a></li>
+            </ul>
+        </nav>
+        <div class="flex">
+        <header>
+            <h1>Flexbox-верстка</h1>
+        </header>
+        <section class="block1">
+            <video src="Video/God of War_ 7 Skills to Get First.mp4" controls="controls"></video>
+            <video src="Video/God of War_ 7 Skills to Get First.mp4" controls="controls"></video>
+            <video src="Video/God of War_ 7 Skills to Get First.mp4" controls="controls"></video>
+        </section>
+        <section class="block2">
+            <p>
+                Flexbox-верстка — разметка макетов веб-страниц, которая позволяет автоматически настраивать ширину элементов, находящихся внутри flex-контейнера. Для применения данного способа разметки следует учитывать разделение применяемых свойств на свойства flex-контейнера и свойства flex-элемента.
+            </p>
+            <p>
+                С помощью display: flex; осуществляется преобразование HTML-элемента в flex-контейнер, а элементы находящийся внутри него в flex-элементы. По умолчанию flex-элементы помещаются друг за другом в одной строке. Свойство flex-flow позволяет выбрать направление отображения элементов в контейнере, а также указать их перенос на следующую строку. Первое значение определяет направление, а второе перенос на следующую строку.
+            </p>
+            <p>
+                Свойство flex-flow является сокращенной записью и содержит значения свойств  flex-direction и  flex-wrap. Flex-элементы могут размещаться в строке (значение row) или в колонке (значение column). Перенос элементов осуществляется с помощью значения wrap.
+            </p>
+            <p>
+                Свойство justify-content определяет способ выключки flex-элементов в строке. Для выравнивания левому краю используется значения flex-start, а по правому краю — flex-end. Для равномерного распределения элементов создавая пространство между ними необходимо значение space-between, а space-around добавляет поля по левому и правому краям крайних элементов.
+            </p>
+            <p>
+                Свойство align-items определяет, как flex-элементы различной высоты будут выровнены по высоте строки в flex-контейнере. Для выравнивания верхнему краю используется значения flex-start, а по нижнему краю — flex-end. Значение stretch позволяет растянуть каждый элемент по высоте контейнера, делая их высоты одинаковыми.
+            </p>
+            <p>
+                Свойство align-content определяет как будут размещены flex-элементы, занимающие несколько строк.
+            </p>
+        </section>
+        <section class="block3">
+                <h2> 01 - God of War </h2>
+            <audio controls="controls">
+                <source src="Audio/01 - God of War.mp3" type="audio/mp3">
+            </audio>
+                <h2> 02 - Memories of Mother </h2>
+            <audio controls="controls">
+                <source src="Audio/02 - Memories of Mother.mp3" type="audio/mp3">
+            </audio>
+                <h2> 03 - Witch of the Woods </h2>
+            <audio controls="controls">
+                <source src="Audio/03 - Witch of the Woods.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        </div>
+</body>
+</html>
