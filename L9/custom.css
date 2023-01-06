@@ -1,0 +1,67 @@
+.container {
+    border: 3px ridge #5BA199;
+    background: #BBC6C8;
+}
+p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 25px;   
+    color: #437b7c;
+    border-left: 3px solid #5BA199;
+    border-right: 3px solid #5BA199;
+    border-bottom: 3px solid #5BA199;
+    background: #E5E3E4;
+    height: 760px;
+}
+h1 {
+    text-align: center;
+    color: #a88974;
+}
+ul {
+    list-style-type: none;
+    margin-left: 85px;
+}
+li {
+    display: inline;
+    margin-left: -5px;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4b4fa3;
+    padding: 10px;
+    border-left: 2px solid #5BA199;
+    border-right: 2px solid #5BA199;
+}
+nav {
+    border: 3px ridge #5BA199;
+    background: #E5E3E4;
+}
+.logotip {
+    background: url(Картинки/it_bstu.png) no-repeat #E5E3E4;
+    background-size: 100px 100px;
+    background-position: 10px 30px;
+    border: 3px ridge #5BA199;
+    height: 153px;
+}
+#row_h {
+    border-top: 3px ridge #5BA199;
+    border-bottom: 3px ridge #5BA199;
+    background: #E5E3E4;
+    margin-top: 33px;
+}
+#row_h h1 {
+    text-align: center;
+    color: #a88974;
+    border-left: 3px solid #5BA199;
+    border-right: 3px solid #5BA199;
+    font-size: 25px;
+}
+#row_p {
+    background: #BBC6C8;
+    border-bottom: 3px ridge #5BA199;   
+}

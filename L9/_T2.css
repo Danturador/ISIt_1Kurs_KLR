@@ -1,0 +1,43 @@
+body{
+    background-size: 100% 100%;
+    text-align: center;
+}
+figure{
+    display: block;
+    background: none;
+    text-align: center;
+}
+figcaption{
+    background: none;
+    font-size: 10px;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap: 15px;
+}
+.grid div{
+    border: 1px solid black;
+}
+.div_9{
+    grid-row: 2/4;
+    grid-column: 4/6;
+}
+.div_10{
+    grid-row: 3/5;
+    grid-column: 1/3;
+}
+img{
+    width: 45%;
+    height: 45%;
+}
+.div_10 img{
+    width: 45%;
+    height: 45%;
+}
+.div_9 img{
+    width: 45%;
+    height: 45%;
+}

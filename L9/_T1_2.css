@@ -1,0 +1,29 @@
+.gr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px;
+    grid-gap: 5px;
+}
+div .block_1, div .block_2, div .block_3{
+    text-align: justify;
+    font-size: 25px;
+}
+.Title{
+    background: rgb(237, 227, 41);
+    border: 1px solid black;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 45px;
+    grid-row:1/3;
+}
+.block_1{
+    grid-row:1/3;
+    background: rgb(237, 227, 41);
+}
+.block_2{
+    grid-row:1/2;
+    background: rgb(237, 227, 41);
+}
+.block_3{
+    grid-row:2/3;
+    background: rgb(237, 227, 41);
+}

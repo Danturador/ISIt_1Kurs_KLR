@@ -1,0 +1,51 @@
+.container{
+    color: black;
+    height: fit-content;
+}
+.icon {
+    background: url(pictures/fit.jpg) no-repeat;
+    background-size: 200px 200px;
+    margin: 20px 0 0 20px;
+    height: 200px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+nav {
+    background: rgb(237, 227, 41);
+    height: 200px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 50px;
+}
+li {
+    display: inline;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.row a:hover{
+    color:rgb(136, 130, 12)
+}
+.row h2{
+    line-height: 40px;
+    font-size: 25px;
+    background: rgb(197, 189, 33);
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: min-content;
+}
+p{
+    font-size: 18px;
+    line-height: 20px;
+    background: rgb(197, 189, 33);
+    height: 350px;
+    text-align: justify;
+}
+

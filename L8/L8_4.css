@@ -1,0 +1,54 @@
+nav{
+    margin:auto;
+    width: fit-content;
+}
+nav ul {
+    list-style-type:none;
+    padding:0;
+}
+nav > ul > li{
+    width:250px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    position: relative;
+    float: left;
+    text-decoration: none;
+    background-color: rgb(70, 215, 162);
+    border: 1px solid black;
+}
+nav li a{
+    width:250px;
+    height: 30px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    background: url(pic/fac.png) no-repeat 0 0;
+}
+.sMenu a{
+    display: block;
+    background: rgb(232, 92, 199);
+    text-decoration: none;
+    color: rgb(15, 25, 88);
+    border: 1px dashed black;
+}
+nav li .sMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:0;
+}
+nav li:hover .sMenu{
+    width: 50%;
+    display: block;
+}
+nav .img1 a:hover{
+    background-position: 0 -30px;
+}
+nav .img2 a:hover{
+    background-position: 0 -90px;
+}
+nav .img3 a:hover{
+    background-position: 0 -60px;
+}

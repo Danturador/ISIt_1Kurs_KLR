@@ -1,0 +1,29 @@
+.gr{
+    display: grid;
+    grid-template-areas: 
+    "head head head"
+    "nav content asideContent"
+    "foot foot foot";
+    grid-template-columns: 8% 1fr 25%;
+    grid-template-rows: 30% 1fr 30%;
+    grid-gap: 10px;
+}
+.gr [style*="grid-area"]{
+    border: 1px solid black;
+    background: rgb(237, 227, 41);
+}
+p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    text-align: center;
+}
+a{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+}

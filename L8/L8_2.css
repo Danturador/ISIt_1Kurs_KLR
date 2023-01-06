@@ -1,0 +1,338 @@
+img{
+    height: 400px;
+    width: 300px;
+    margin: 4px;
+}
+.task_1-1:hover{
+    transform: scale(0.5);
+    display: inline-block;
+}
+.task_1-2:hover{
+    transform: rotate(45deg);
+    display: inline-block;
+}
+.task_1-3:hover{
+    transform: translate(50px, 0px);
+    display: inline-block;
+}
+.task_1-4:hover{
+    transform: skew(-20deg);
+    display: inline-block;
+}
+.task_2-1{
+    transform: perspective(400px) rotateX(20deg);
+    display: inline-block;
+}
+.task_2-2{
+    transform: perspective(400px) rotateY(35deg);
+}
+.task_2-3{
+    transform: perspective(400px) rotateX(35deg);
+    display: inline-block;
+}
+.task_2-4{
+    transform: perspective(400px) rotateY(-60deg);
+    display: inline-block;
+}
+/* Задание 3 */
+input[type="button"]{
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    margin: 20px;
+
+}
+.task_3-1:hover{
+    background-color: black;
+    color: white;
+}
+.task_3-2:hover{
+    border: 6px solid red;
+    outline: 6px solid yellow;
+    background-color: white;
+}
+.task_3-3:hover{
+    border-top: 6px solid green;
+    border-bottom: 6px solid green;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+}
+.task_3-4:hover{
+    border-top: none;
+    border-bottom: none;
+    border-left:  6px solid blue;
+    border-right: 6px solid blue;
+    background-color: white;
+}
+.task_3-5:hover{
+    border: none;
+    background-image:radial-gradient(rgb(235, 235, 10), rgb(231, 17, 231), rgb(11, 244, 244));
+}
+.task_4-1{
+    transform: perspective(400px);
+    position: relative;
+    z-index: 0;
+    left: 0px;
+    animation: task_4-1 12s linear 1;
+    animation-fill-mode:forwards;
+}
+.task_4-2{
+    transform: perspective(400px);
+    position: relative;
+    z-index: 1;
+    left: -300px;
+    animation: task_4-2 12s linear 1;
+    animation-fill-mode:forwards;
+}
+.task_4-3{
+    transform: perspective(400px);
+    position: relative;
+    z-index: 2;
+    left: -600px;
+    animation: task_4-3 12s linear 1;
+    animation-fill-mode:forwards;
+}
+.task_4-4{
+    transform: perspective(400px);
+    position: relative;
+    z-index: 3;
+    left: -900px;
+    animation: task_4-4 12s linear 1;
+    animation-fill-mode:forwards;
+}
+@keyframes task_4-1{
+    0%{
+        transform: perspective(400px) rotateY(45deg);
+    }
+    50%{
+        transform: perspective(400px) rotateY(0deg);
+    }
+}
+@keyframes task_4-2{
+    0%{
+        transform: perspective(400px) rotateY(45deg);
+    }
+    50%{
+        transform: perspective(400px) rotateY(0deg);
+        translate: 0px;
+        
+    }
+    100%{
+        translate: 315px;
+        filter: blur(10px);
+    }
+}
+@keyframes task_4-3{
+    0%{
+        transform: perspective(400px) rotateY(45deg);
+    }
+    50%{
+        transform: perspective(400px) rotateY(0deg);
+        translate: 0px;
+    }
+    100%{
+        translate: 615px;
+        filter: grayscale(1);
+    }
+}
+@keyframes task_4-4{
+    0%{
+        transform: perspective(400px) rotateY(45deg);
+    }
+    50%{
+        transform: perspective(400px) rotateY(0deg);
+        translate: 0px;
+    }
+    100%{
+        translate: 915px;
+        filter: invert(1);
+    }
+}
+.task_5{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 5px solid rgb(114, 0, 82);
+    animation: task_5 5s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes task_5{
+    0%{
+        background-image: url(pic/skeletonArmy.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+    }
+    25%{
+        background-image: url(pic/sparkey.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+    }
+    50%{
+        background-image: url(pic/wizard.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+    }
+    75%{
+        background-image: url(pic/woodcutter.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+    }
+    100%{
+        background-image: url(pic/mushckets.jpg);
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+    }
+}
+img[src="pic/legendCard.jpg"]{
+    position: relative;
+    display: block;
+}
+.task_6-1{
+    animation: task_6-1 5s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes task_6-1{
+    from{
+        translate: 0px;
+    }
+    to{
+        translate: 200px;
+    }
+}
+.task_6-2{
+    animation: task_6-2 5s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes task_6-2{
+    0%{
+        translate: 0px;
+    }
+    25%{
+        translate: 200px;
+        transform: scale(0.7);
+    }
+    50%{
+        translate: 200px;
+        transform: rotateX(85deg);
+    }
+    75%{
+        translate: 400px;
+        transform: skew(45deg);
+    }
+    100%{
+        translate: 300px;
+        transform: scale(1.6);
+    }
+}
+.task_6-3{
+    animation: task_6-3 5s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes task_6-3{
+
+    0% {
+        translate: -700px; 
+    }
+    100% {
+        translate: 1500px;
+    }
+}
+.task_6-4{
+    animation: task_6-4 5s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes  task_6-4{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(50px);
+    }
+}
+.task_6-5{
+    animation: task_6-5 3s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes  task_6-5{
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 250px;
+        top: 0;
+    }
+
+    50% {
+        left: 250px;
+        top: -250px;
+    }
+
+    75% {
+        left: 0;
+        top: -250px;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+div{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: center;
+}
+p{
+    text-align: justify;
+    animation: task_7 5s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes task_7{
+    0%{
+        color: rgb(233, 248, 70);
+    }
+    25%{
+        color: #59f844;
+    }
+    50%{
+        color: #140847;
+    }
+    70%{
+        color:rgb(163, 33, 120)
+    }
+    100%{
+        color: #9b2d30;
+    }
+}
+h1{
+    text-align: center;
+    color: #e0dc07;
+    animation: task_8 3s linear infinite alternate;
+}
+@keyframes task_8{
+    from{
+        filter: opacity(0%);
+    }
+    to{
+        filter: opacity(80%);
+    }
+}
+.nav li{
+    background-color: grey;
+    display: inline;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid black;
+    list-style-type: none; 
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
