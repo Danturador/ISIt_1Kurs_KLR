@@ -1,0 +1,45 @@
+p {
+    border-width: 5px;   
+}
+.p1 {
+    border-style: solid;
+    border-color: orange rgb(0, 0, 107) yellow brown;
+}
+.p2 {
+    
+    border-left: solid #007BA7;
+    border-right: solid #007BA7;
+}
+.p3 {
+    border-style: solid dashed dashed dashed;
+    border-color: rgb(229, 43, 80) blue blue blue;
+}
+.p4 {
+    border: 1px dotted orange;
+}
+.p5 {
+    border-width: 2px;
+    border-style: solid dashed solid dashed;
+    border-color: rgb(37, 8, 105) maroon rgb(37, 8, 105) maroon;
+}
+.p6 {
+    border-style: double;
+    border-color: #B3446C;
+}
+.p7 {
+    border-top: 1px dashed #808000;
+    border-bottom: 3px dashed #FF7518;
+}
+.p8 {
+    border-bottom: double #CC7722;
+    border-left: double #CC7722;
+}
+.p9 {
+    border-right: ridge #B5A642;
+    border-top: ridge #B5A642;
+}
+.p10 {
+    border-right: 5px dotted rgb(0, 40, 0);
+    border-left: 5px dotted rgb(0, 40, 0);
+    border-bottom: 5px dotted rgb(0, 40, 0);
+}

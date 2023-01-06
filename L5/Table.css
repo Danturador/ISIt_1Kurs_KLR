@@ -1,0 +1,35 @@
+table {
+	empty-cells: hide;
+	border-collapse: separate;
+    border-spacing: 0;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+caption {
+    text-align: center;
+    font-size: 1.2em;
+}
+th{
+    color: white;
+    background-color: darkblue;
+    border: 2px solid #800000;
+}
+td{
+    border: 2px solid #800000;
+    color: white;
+}
+td:first-child{
+    font-weight: bold;
+    color: black;
+}
+td:nth-child(2){
+    background-color: #00BFFF;
+}
+td:nth-child(3){
+    background-color: purple;
+}
+td:nth-child(4){
+    background-color: green;
+}

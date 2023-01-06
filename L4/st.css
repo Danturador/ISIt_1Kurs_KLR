@@ -1,0 +1,63 @@
+div {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 30px;
+    height: 45px;
+    border-width: 5px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+}
+.divRed {
+    border-style: inset;
+    border-color: rgb(255, 0, 0);
+    
+}
+.divGreen {
+    border-style: dashed;
+    border-color: rgb(0, 128, 0);
+}
+.divBlue {
+    border-style: dotted;
+    border-color: rgb(0, 0, 255);
+}
+.divAqua {
+    border-style: double;
+    border-color: rgb(0, 255, 255);
+}
+.divPurple {
+    border-style: groove;
+    border-color: rgb(131, 0, 131);
+}
+.divYellow {
+    border-style: outset;
+    border-color: rgb(255, 255, 0);
+}
+.divBlack {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+span {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #FFA500;
+    border: 5px solid #FF4500;
+}
+.p1 {
+    margin: auto;
+    width: 400px;
+    border: 5px solid #FF7F50;
+}
+.p2 {
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    box-shadow: inset 2px -2px 8px 8px rgba(0, 0, 0, 5);
+    overflow: auto;
+    height: 50px;
+}
+.p3 {
+    border: 5px solid #FF6347;
+}

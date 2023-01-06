@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Times New Roman';
+    font-size: large;
+}
+th, td {
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+}
+thead {
+    background-color: rgb(30, 255, 0);
+}
+.colClass {
+    background-color:rgb(140, 212, 240);
+}
