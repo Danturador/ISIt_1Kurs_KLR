@@ -1,0 +1,21 @@
+img{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+figure{
+    display: block;
+    float: left;
+    text-align: center;
+    background: none;
+}
+figcaption{
+    font-size: large;
+    background: none;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}

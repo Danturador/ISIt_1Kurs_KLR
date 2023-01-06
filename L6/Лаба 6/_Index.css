@@ -1,0 +1,86 @@
+body{
+    background-image: url(backgrounds/fit.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100px 100px;
+    margin: 0 5% 0 5%;
+}
+.MMORPG_list li {
+    list-style: none;
+    background-image: url(markers/MMORPG.png);
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    background-size: 25px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    line-height: 30px;
+}
+.Surv_list li {
+    list-style: none;
+    background-image: url(markers/Surv.png);
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    background-size: 25px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.Plantf_list li {
+    list-style: none;
+    background-image: url(markers/Platf.png);
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    background-size: 25px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+h1, h2{
+    text-align: center;
+}
+h3{
+    text-indent: 20px;
+    color:rgb(5, 157, 157);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+table{
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+.photo1{
+    width: 400px;
+    float: left;
+    clear: right;
+    padding-right: 5px;
+}
+.photo2{
+    width: 230px;
+    clear: left;
+    float: right;
+    padding-left: 50px;
+}
+a{
+    font-size: large;
+    color:rgb(5, 157, 157);
+}
